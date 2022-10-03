@@ -48,7 +48,7 @@ class App extends Component {
     } else {
         this.setState({faceCountPrompt: '0 faces found!'});
     }
-    //console.log(this.state.faceCountPrompt);
+    
   }
 
   displayFaceBox = (box) => {
@@ -69,7 +69,6 @@ class App extends Component {
     .then( response => {
         this.displayFaceBox(this.calculateFaceLocation(response))
         return response;
-        //console.log(response.outputs[0].data.regions[0].region_info.bounding_box);
       })
     .then(response => {
       this.getNumOfFaces(response)
