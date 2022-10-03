@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 <p align='center'>
-  <img src="https://github.com/harsh877587/react-face-detection-app/blob/Harsh/demo.png" />
+  <img src="https://github.com/harsh877587/react-face-detection-app/blob/master/demo.png" />
 </p>
 
 ## Available Scripts
